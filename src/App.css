@@ -1,11 +1,8 @@
 .App {
   text-align: center;
+  transition: all 1s;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -14,15 +11,49 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.color0{
+  background-color: #282c34;
+}
+
+.color1{
+  background: rgb(84,26,45);
+}
+.color2{
+  background: rgb(6,10,9);
+}
+.color3{
+  background: rgb(42, 77, 68);
+}
+.color4{
+  background: rgb(55,108,26);
+}
+
+.color5{
+  background-color: rgb(8, 8, 56);
+ }
+
+.color6{
+  background-color: rgb(107, 71, 7);
+ }
+
+.color7{
+  background-color: black;
+ }
+
+.color8{
+  background-color: rgb(13, 41, 41);
+ }
+
+.color9{
+  background-color: rgb(22, 10, 87);
+ }
 
 .App-link {
   color: #61dafb;
